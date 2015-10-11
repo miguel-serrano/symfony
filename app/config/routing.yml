@@ -1,0 +1,23 @@
+cupon_usuario:
+    resource: "@CuponUsuarioBundle/Resources/config/routing.yml"
+    prefix:   /
+
+cupon_tienda:
+    resource: "@CuponTiendaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+cupon_ciudad:
+    resource: "@CuponCiudadBundle/Resources/config/routing.yml"
+    prefix:   /
+
+cupon_oferta:
+    resource: "@CuponOfertaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+pagina_ayuda:
+    pattern:  /ayuda
+    defaults: { _controller: CuponOfertaBundle:Default:ayuda }

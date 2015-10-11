@@ -1,0 +1,3 @@
+cupon_usuario_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: CuponUsuarioBundle:Default:index }
