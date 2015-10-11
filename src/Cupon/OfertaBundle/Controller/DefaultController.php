@@ -10,4 +10,9 @@ class DefaultController extends Controller
     	//return new Response('página de ayuda');
     	return $this->render('CuponOfertaBundle:Default:ayuda.html.twig');
     }
+
+    public function meAction() {
+    	//return new Response('página de ayuda');
+    	return $this->render('CuponOfertaBundle:Default:me.html.twig');
+    }
 }
